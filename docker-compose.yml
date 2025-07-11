@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  cs16-server:
+    build:
+      context: .
+      args:
+        - RCON_PASSWORD=${RCON_PASSWORD}
+        - MAXPLAYERS=${MAXPLAYERS}
+        - MAP=${MAP}
+        - SV_REGION=${SV_REGION}
+    container_name: cs16-server
+    ports:
+      - "27015:27015/tcp"
+      - "27015:27015/udp"
+#    volumes:
+#      - ./cstrike_data:/app/server/cstrike
+    environment:
+      - MAXPLAYERS=${MAXPLAYERS}
+      - MAP=${MAP}
+      - RCON_PASSWORD=${RCON_PASSWORD}
+      - SV_REGION=${SV_REGION}
+    restart: unless-stopped
+    networks:
+      - cs-net
+
+networks:
+  cs-net:
+    driver: bridge

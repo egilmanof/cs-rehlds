@@ -1,12 +1,66 @@
-<center>
-  <img src="https://example.com/logo.png" width="300" height="100">
-  <h1>Добро пожаловать на Phoenix Legacy!</h1>
-  <p><b>Версия:</b> ReHLDS 3.8.0.702</p>
-  <p><b>Правила:</b></p>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+body {
+  background: #1a1a1a;
+  color: #e0e0e0;
+  font-family: 'Tahoma', sans-serif;
+  margin: 0;
+  padding: 10px;
+  line-height: 1.5;
+}
+.header {
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 2px solid #ff6600;
+  margin-bottom: 20px;
+}
+.server-name {
+  color: #ff6600;
+  font-size: 24px;
+  margin: 0;
+  text-shadow: 1px 1px 2px #000;
+}
+.rules-box {
+  background: #252525;
+  border-left: 4px solid #ff6600;
+  padding: 10px 15px;
+  margin: 15px 0;
+}
+.rules-title {
+  color: #ff6600;
+  margin-top: 0;
+}
+.contact-info {
+  text-align: center;
+  margin: 25px auto;
+  padding: 10px;
+  background: #0088cc;
+  border-radius: 4px;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 class="server-name">[OLD] SCHOOL FRAG ZONE</h1>
+  <p>Classic CS 1.6 Experience</p>
+</div>
+
+<div class="rules-box">
+  <h3 class="rules-title">≡ ПРАВИЛА СЕРВЕРА ≡</h3>
   <ul>
-    <li>No cheating</li>
-    <li>Respect others</li>
-    <li>No offensive language</li>
+    <li><strong>Читы:</strong> Перманентный бан</li>
+    <li><strong>Оскорбления:</strong> Мут/Бан</li>
+    <li><strong>Баги/Эксплойты:</strong> Запрещены</li>
+    <li><strong>Уважение:</strong> К игрокам и админам</li>
   </ul>
-  <p><b>Админ:</b> NOX (STEAM_0:1:44811246)</p>
-</center>
+</div>
+
+<div class="contact-info">
+  Администратор: @egilmanof (Telegram)
+</div>
+</body>
+</html>
