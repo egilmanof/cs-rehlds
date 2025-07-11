@@ -1,0 +1,12 @@
+<center>
+  <img src="https://example.com/logo.png" width="300" height="100">
+  <h1>Добро пожаловать на Phoenix Legacy!</h1>
+  <p><b>Версия:</b> ReHLDS 3.8.0.702</p>
+  <p><b>Правила:</b></p>
+  <ul>
+    <li>No cheating</li>
+    <li>Respect others</li>
+    <li>No offensive language</li>
+  </ul>
+  <p><b>Админ:</b> NOX (STEAM_0:1:44811246)</p>
+</center>

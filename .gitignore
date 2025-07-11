@@ -14,7 +14,7 @@ hlds_linux
 *.dll
 
 # Конфиги (можно хранить шаблоны, но не реальные конфиги с паролями)
-server.cfg
+configs/server.cfg
 amxx.cfg
 
 # Логи
