@@ -1,0 +1,35 @@
+# Docker-артефакты
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# SteamCMD кэш
+steamcmd/
+steamcmd_linux.tar.gz
+
+# Серверные файлы
+hlds_run
+hlds_linux
+*.so
+*.dll
+
+# Конфиги (можно хранить шаблоны, но не реальные конфиги с паролями)
+server.cfg
+amxx.cfg
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.pid
+*.tmp
+*.cache
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
